@@ -1,0 +1,44 @@
+  - type: image
+    title: null
+    entity: binary_sensor.pvetester_gaming_running
+    state_image:
+      'on': /local/floorplan/Basement/Windows.png
+      'off': /local/floorplan/common/transparent_square.png
+    style:
+      width: 2.7%
+      top: 17.3%
+      left: 43.3%
+      transform: rotateX(51deg) skewX(6deg)
+  - type: image
+    title: null
+    entity: binary_sensor.pvetester_mint_running
+    state_image:
+      'on': /local/floorplan/Basement/mint.jpg
+      'off': /local/floorplan/common/transparent_square.png
+    style:
+      width: 2.7%
+      top: 17.3%
+      left: 43.3%
+      transform: rotateX(51deg) skewX(6deg)
+  - type: image
+    title: null
+    entity: binary_sensor.pvetester_catalina_running
+    state_image:
+      'on': /local/floorplan/Basement/macos.jpg
+      'off': /local/floorplan/common/transparent_square.png
+    style:
+      width: 2.7%
+      top: 17.3%
+      left: 43.3%
+      transform: rotateX(51deg) skewX(6deg)
+  - type: image
+    title: null
+    entity: binary_sensor.pvetester_work_running
+    state_image:
+      'on': /local/floorplan/Basement/lw.jpg
+      'off': /local/floorplan/common/transparent_square.png
+    style:
+      width: 2.7%
+      top: 17.3%
+      left: 43.3%
+      transform: rotateX(51deg) skewX(6deg)
