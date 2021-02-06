@@ -1,0 +1,22 @@
+- platform: command_line
+  switches:
+    gaming_computer:
+      command_on: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU.sh 91094"
+      command_off: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU.sh none"
+      command_state: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU_check.sh 91094"
+      command_timeout: 90
+    mint_computer:
+      command_on: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU.sh 91097"
+      command_off: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU.sh none"
+      command_state: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU_check.sh 91097"
+      command_timeout: 90
+    work_computer:
+      command_on: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU.sh 91098"
+      command_off: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU.sh none"
+      command_state: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU_check.sh 91098"
+      command_timeout: 90
+    mac_computer:
+      command_on: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU.sh 91096"
+      command_off: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU.sh none"
+      command_state: "ssh -ttt -i /config/www/ssh_keys/hass.pvetester.pri -o 'StrictHostKeyChecking=no' hass@192.168.0.16 sudo /scripts/GPU_check.sh 91096"
+      command_timeout: 90
